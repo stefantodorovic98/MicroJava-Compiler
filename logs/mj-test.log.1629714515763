@@ -1,0 +1,395 @@
+INFO  12:21:40,750 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  12:21:40,833 - #2 program
+INFO  12:21:40,834 - #36 test301
+INFO  12:21:40,834 - #36 int
+INFO  12:21:40,835 - #36 unos
+INFO  12:21:40,837 - #5 ;
+INFO  12:21:40,837 - #3 {
+INFO  12:21:40,837 - #36 int
+INFO  12:21:40,838 - #36 suma
+INFO  12:21:40,838 - #6 (
+INFO  12:21:40,839 - #36 int
+INFO  12:21:40,839 - #36 a
+INFO  12:21:40,839 - #11 ,
+INFO  12:21:40,839 - #36 int
+INFO  12:21:40,840 - #36 b
+INFO  12:21:40,840 - #7 )
+INFO  12:21:40,840 - #3 {
+INFO  12:21:40,841 - #9 return
+INFO  12:21:40,842 - #36 a
+INFO  12:21:40,842 - #10 +
+INFO  12:21:40,842 - #36 b
+INFO  12:21:40,843 - #5 ;
+INFO  12:21:40,844 - #4 }
+INFO  12:21:40,849 - #36 int
+INFO  12:21:40,849 - #36 vratiBroj
+INFO  12:21:40,849 - #6 (
+INFO  12:21:40,849 - #36 int
+INFO  12:21:40,850 - #36 a
+INFO  12:21:40,850 - #7 )
+INFO  12:21:40,850 - #3 {
+INFO  12:21:40,850 - #9 return
+INFO  12:21:40,850 - #36 a
+INFO  12:21:40,850 - #5 ;
+INFO  12:21:40,850 - #4 }
+INFO  12:21:40,850 - #13 void
+INFO  12:21:40,850 - #36 neVraca
+INFO  12:21:40,851 - #6 (
+INFO  12:21:40,851 - #7 )
+INFO  12:21:40,852 - #3 {
+INFO  12:21:40,852 - #12 print
+INFO  12:21:40,852 - #6 (
+INFO  12:21:40,852 - #33 5
+INFO  12:21:40,852 - #7 )
+INFO  12:21:40,854 - #5 ;
+INFO  12:21:40,854 - #9 return
+INFO  12:21:40,854 - #33 10
+INFO  12:21:40,854 - #5 ;
+INFO  12:21:40,854 - #4 }
+INFO  12:21:40,854 - #13 void
+INFO  12:21:40,854 - #36 main
+INFO  12:21:40,854 - #6 (
+INFO  12:21:40,855 - #7 )
+INFO  12:21:40,855 - #36 int
+INFO  12:21:40,855 - #36 a
+INFO  12:21:40,855 - #5 ;
+INFO  12:21:40,855 - #36 char
+INFO  12:21:40,855 - #36 b
+INFO  12:21:40,855 - #5 ;
+INFO  12:21:40,855 - #36 int
+INFO  12:21:40,855 - #36 c
+INFO  12:21:40,856 - #5 ;
+INFO  12:21:40,856 - #36 int
+INFO  12:21:40,856 - #36 niz
+INFO  12:21:40,856 - #30 [
+INFO  12:21:40,856 - #21 ]
+INFO  12:21:40,856 - #5 ;
+INFO  12:21:40,856 - #3 {
+INFO  12:21:40,856 - #36 niz
+INFO  12:21:40,857 - #8 =
+INFO  12:21:40,857 - #16 new
+INFO  12:21:40,857 - #36 int
+INFO  12:21:40,857 - #30 [
+INFO  12:21:40,857 - #33 54
+INFO  12:21:40,857 - #21 ]
+INFO  12:21:40,857 - #5 ;
+INFO  12:21:40,857 - #36 a
+INFO  12:21:40,858 - #8 =
+INFO  12:21:40,858 - #36 len
+INFO  12:21:40,858 - #6 (
+INFO  12:21:40,858 - #36 niz
+INFO  12:21:40,858 - #7 )
+INFO  12:21:40,859 - #5 ;
+INFO  12:21:40,860 - #12 print
+INFO  12:21:40,860 - #6 (
+INFO  12:21:40,860 - #36 a
+INFO  12:21:40,860 - #7 )
+INFO  12:21:40,860 - #5 ;
+INFO  12:21:40,860 - #4 }
+INFO  12:21:40,860 - #4 }
+INFO  12:21:40,878 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          VarDeclarationItem(
+           unos
+          ) [VarDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    MethodDeclarationsList(
+      MethodDeclarationsList(
+        MethodDeclarationsList(
+          NoMethodDeclarationsList(
+          ) [NoMethodDeclarationsList]
+          MethodDeclaration(
+            MethodReturnType(
+              Type(
+               int
+              ) [Type]
+             suma
+            ) [MethodReturnType]
+            FormParams(
+              FormalParamDecls(
+                SingleFormalParamDecl(
+                  ScalarParam(
+                    Type(
+                     int
+                    ) [Type]
+                   a
+                  ) [ScalarParam]
+                ) [SingleFormalParamDecl]
+                ScalarParam(
+                  Type(
+                   int
+                  ) [Type]
+                 b
+                ) [ScalarParam]
+              ) [FormalParamDecls]
+            ) [FormParams]
+            NoLocalVarDeclarationsList(
+            ) [NoLocalVarDeclarationsList]
+            StmtList(
+              NoStmtList(
+              ) [NoStmtList]
+              ReturnStmt(
+                YesReturnExpr(
+                  ExprAdd(
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          ScalarDesignator(
+                           a
+                          ) [ScalarDesignator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                    PlusOperation(
+                    ) [PlusOperation]
+                    TermFactor(
+                      FactorDesignator(
+                        ScalarDesignator(
+                         b
+                        ) [ScalarDesignator]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ExprAdd]
+                ) [YesReturnExpr]
+              ) [ReturnStmt]
+            ) [StmtList]
+          ) [MethodDeclaration]
+        ) [MethodDeclarationsList]
+        MethodDeclaration(
+          MethodReturnType(
+            Type(
+             int
+            ) [Type]
+           vratiBroj
+          ) [MethodReturnType]
+          FormParams(
+            SingleFormalParamDecl(
+              ScalarParam(
+                Type(
+                 int
+                ) [Type]
+               a
+              ) [ScalarParam]
+            ) [SingleFormalParamDecl]
+          ) [FormParams]
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          StmtList(
+            NoStmtList(
+            ) [NoStmtList]
+            ReturnStmt(
+              YesReturnExpr(
+                ExprTerm(
+                  TermFactor(
+                    FactorDesignator(
+                      ScalarDesignator(
+                       a
+                      ) [ScalarDesignator]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [YesReturnExpr]
+            ) [ReturnStmt]
+          ) [StmtList]
+        ) [MethodDeclaration]
+      ) [MethodDeclarationsList]
+      MethodDeclaration(
+        MethodReturnVoid(
+         neVraca
+        ) [MethodReturnVoid]
+        NoFormParams(
+        ) [NoFormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        StmtList(
+          StmtList(
+            NoStmtList(
+            ) [NoStmtList]
+            PrintStmt(
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   5
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+              NoNumberConstant(
+              ) [NoNumberConstant]
+            ) [PrintStmt]
+          ) [StmtList]
+          ReturnStmt(
+            YesReturnExpr(
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   10
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [YesReturnExpr]
+          ) [ReturnStmt]
+        ) [StmtList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          LocalVarDeclarationsList(
+            LocalVarDeclarationsList(
+              NoLocalVarDeclarationsList(
+              ) [NoLocalVarDeclarationsList]
+              VarDeclarations(
+                Type(
+                 int
+                ) [Type]
+                OneVarDeclarationItem(
+                  VarDeclarationItem(
+                   a
+                  ) [VarDeclarationItem]
+                ) [OneVarDeclarationItem]
+              ) [VarDeclarations]
+            ) [LocalVarDeclarationsList]
+            VarDeclarations(
+              Type(
+               char
+              ) [Type]
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 b
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+            ) [VarDeclarations]
+          ) [LocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               c
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             niz
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStmtList(
+            ) [NoStmtList]
+            AssignStmt(
+              DesignatorAssignValue(
+                ScalarDesignator(
+                 niz
+                ) [ScalarDesignator]
+                ExprTerm(
+                  TermFactor(
+                    FactorArray(
+                      Type(
+                       int
+                      ) [Type]
+                      ExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           54
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [FactorArray]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [DesignatorAssignValue]
+            ) [AssignStmt]
+          ) [StmtList]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               a
+              ) [ScalarDesignator]
+              ExprTerm(
+                TermFactor(
+                  FactorFuncCall(
+                    ScalarDesignator(
+                     len
+                    ) [ScalarDesignator]
+                    YesActualPars(
+                      SingleActualParam(
+                        ActualParam(
+                          ExprTerm(
+                            TermFactor(
+                              FactorDesignator(
+                                ScalarDesignator(
+                                 niz
+                                ) [ScalarDesignator]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [ActualParam]
+                      ) [SingleActualParam]
+                    ) [YesActualPars]
+                  ) [FactorFuncCall]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [StmtList]
+        PrintStmt(
+          ExprTerm(
+            TermFactor(
+              FactorDesignator(
+                ScalarDesignator(
+                 a
+                ) [ScalarDesignator]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprTerm]
+          NoNumberConstant(
+          ) [NoNumberConstant]
+        ) [PrintStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  12:21:40,878 - ===================================
+INFO  12:21:40,883 - Deklarisana promenljiva unos na liniji 5
+INFO  12:21:40,883 - Obradjuje se funkcija suma na liniji 7
+INFO  12:21:40,883 - Obradjuje se funkcija vratiBroj na liniji 12
+INFO  12:21:40,884 - Obradjuje se funkcija neVraca na liniji 17
+ERROR 12:21:40,885 - Metoda tipa void ne vraca nikakvu vrednost! Semanticka greska na liniji 20
+INFO  12:21:40,885 - Obradjuje se funkcija main na liniji 23
+INFO  12:21:40,885 - Deklarisana promenljiva a na liniji 25
+INFO  12:21:40,885 - Deklarisana promenljiva b na liniji 26
+INFO  12:21:40,885 - Deklarisana promenljiva c na liniji 27
+INFO  12:21:40,886 - Deklarisan niz niz na liniji 28
+INFO  12:21:40,886 - ===================================
+ERROR 12:21:40,887 - Parsiranje NIJE uspesno zavrseno!

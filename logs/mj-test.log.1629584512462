@@ -1,0 +1,266 @@
+INFO  00:21:10,807 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  00:21:10,885 - #2 program
+INFO  00:21:10,885 - #38 test301
+INFO  00:21:10,886 - #22 const
+INFO  00:21:10,887 - #38 int
+INFO  00:21:10,887 - #38 nula
+INFO  00:21:10,888 - #8 =
+INFO  00:21:10,889 - #35 0
+INFO  00:21:10,889 - #5 ;
+INFO  00:21:10,889 - #22 const
+INFO  00:21:10,890 - #38 int
+INFO  00:21:10,890 - #38 jedan
+INFO  00:21:10,890 - #8 =
+INFO  00:21:10,890 - #35 1
+INFO  00:21:10,890 - #5 ;
+INFO  00:21:10,890 - #22 const
+INFO  00:21:10,891 - #38 int
+INFO  00:21:10,891 - #38 pet
+INFO  00:21:10,891 - #8 =
+INFO  00:21:10,891 - #35 5
+INFO  00:21:10,891 - #5 ;
+INFO  00:21:10,891 - #38 int
+INFO  00:21:10,892 - #38 niz
+INFO  00:21:10,896 - #31 [
+INFO  00:21:10,896 - #21 ]
+INFO  00:21:10,897 - #5 ;
+INFO  00:21:10,897 - #38 char
+INFO  00:21:10,898 - #38 nizch
+INFO  00:21:10,898 - #31 [
+INFO  00:21:10,899 - #21 ]
+INFO  00:21:10,899 - #5 ;
+INFO  00:21:10,899 - #38 int
+INFO  00:21:10,899 - #38 a
+INFO  00:21:10,899 - #5 ;
+INFO  00:21:10,899 - #3 {
+INFO  00:21:10,899 - #13 void
+INFO  00:21:10,901 - #38 main
+INFO  00:21:10,901 - #6 (
+INFO  00:21:10,901 - #7 )
+INFO  00:21:10,903 - #38 int
+INFO  00:21:10,904 - #38 bodovi
+INFO  00:21:10,905 - #5 ;
+INFO  00:21:10,905 - #3 {
+INFO  00:21:10,906 - #38 a
+INFO  00:21:10,907 - #8 =
+INFO  00:21:10,908 - #35 5
+INFO  00:21:10,908 - #5 ;
+INFO  00:21:10,908 - #49 do
+INFO  00:21:10,909 - #3 {
+INFO  00:21:10,909 - #12 print
+INFO  00:21:10,909 - #6 (
+INFO  00:21:10,909 - #38 bodovi
+INFO  00:21:10,909 - #7 )
+INFO  00:21:10,910 - #5 ;
+INFO  00:21:10,911 - #4 }
+INFO  00:21:10,911 - #50 while
+INFO  00:21:10,911 - #6 (
+INFO  00:21:10,911 - #38 a
+INFO  00:21:10,911 - #47 <
+INFO  00:21:10,911 - #35 5
+INFO  00:21:10,913 - #7 )
+INFO  00:21:10,914 - #5 ;
+INFO  00:21:10,914 - #4 }
+INFO  00:21:10,915 - #4 }
+INFO  00:21:10,947 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        GlobalDeclarationsList(
+          GlobalDeclarationsList(
+            GlobalDeclarationsList(
+              NoGlobalDeclarationsList(
+              ) [NoGlobalDeclarationsList]
+              GlobalConstDecl(
+                ConstDeclarations(
+                  Type(
+                   int
+                  ) [Type]
+                  OneConstDeclarationItem(
+                    ConstDeclarationItem(
+                     nula
+                      ConstValueNumber(
+                       0
+                      ) [ConstValueNumber]
+                    ) [ConstDeclarationItem]
+                  ) [OneConstDeclarationItem]
+                ) [ConstDeclarations]
+              ) [GlobalConstDecl]
+            ) [GlobalDeclarationsList]
+            GlobalConstDecl(
+              ConstDeclarations(
+                Type(
+                 int
+                ) [Type]
+                OneConstDeclarationItem(
+                  ConstDeclarationItem(
+                   jedan
+                    ConstValueNumber(
+                     1
+                    ) [ConstValueNumber]
+                  ) [ConstDeclarationItem]
+                ) [OneConstDeclarationItem]
+              ) [ConstDeclarations]
+            ) [GlobalConstDecl]
+          ) [GlobalDeclarationsList]
+          GlobalConstDecl(
+            ConstDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneConstDeclarationItem(
+                ConstDeclarationItem(
+                 pet
+                  ConstValueNumber(
+                   5
+                  ) [ConstValueNumber]
+                ) [ConstDeclarationItem]
+              ) [OneConstDeclarationItem]
+            ) [ConstDeclarations]
+          ) [GlobalConstDecl]
+        ) [GlobalDeclarationsList]
+        GlobalVarDecl(
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              ArrayDeclarationItem(
+               niz
+              ) [ArrayDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [GlobalVarDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           char
+          ) [Type]
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             nizch
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          VarDeclarationItem(
+           a
+          ) [VarDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    NoMethodDeclarationsList(
+    ) [NoMethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             bodovi
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      StmtList(
+        StmtList(
+          NoStmtList(
+          ) [NoStmtList]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               a
+              ) [ScalarDesignator]
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   5
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [StmtList]
+        DoWhileStmt(
+          BlockStmt(
+            StmtList(
+              NoStmtList(
+              ) [NoStmtList]
+              PrintStmt(
+                ExprTerm(
+                  TermFactor(
+                    FactorDesignator(
+                      ScalarDesignator(
+                       bodovi
+                      ) [ScalarDesignator]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                NoNumberConstant(
+                ) [NoNumberConstant]
+              ) [PrintStmt]
+            ) [StmtList]
+          ) [BlockStmt]
+          ConditionTerm(
+            ConditionFact(
+              CondFact(
+                ExprTerm(
+                  TermFactor(
+                    FactorDesignator(
+                      ScalarDesignator(
+                       a
+                      ) [ScalarDesignator]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                YesSecExpr(
+                  LessOperation(
+                  ) [LessOperation]
+                  ExprTerm(
+                    TermFactor(
+                      FactorNumber(
+                       5
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [YesSecExpr]
+              ) [CondFact]
+            ) [ConditionFact]
+          ) [ConditionTerm]
+        ) [DoWhileStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  00:21:10,948 - ===================================
+INFO  00:21:10,954 - Deklarisana konstanta nula na liniji 5
+INFO  00:21:10,955 - Deklarisana konstanta jedan na liniji 6
+INFO  00:21:10,960 - Deklarisana konstanta pet na liniji 7
+INFO  00:21:10,960 - Deklarisan niz niz na liniji 9
+INFO  00:21:10,960 - Deklarisan niz nizch na liniji 10
+INFO  00:21:10,960 - Deklarisana promenljiva a na liniji 11
+INFO  00:21:10,961 - Obradjuje se funkcija main na liniji 13
+INFO  00:21:10,961 - Deklarisana promenljiva bodovi na liniji 14
+INFO  00:21:10,962 - ===================================

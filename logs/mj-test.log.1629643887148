@@ -1,0 +1,116 @@
+INFO  16:49:54,148 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  16:49:54,206 - #2 program
+INFO  16:49:54,206 - #36 test301
+INFO  16:49:54,206 - #36 int
+INFO  16:49:54,208 - #36 unos
+INFO  16:49:54,209 - #5 ;
+INFO  16:49:54,209 - #3 {
+INFO  16:49:54,209 - #13 void
+INFO  16:49:54,210 - #36 ispis5
+INFO  16:49:54,210 - #6 (
+INFO  16:49:54,210 - #7 )
+INFO  16:49:54,211 - #3 {
+INFO  16:49:54,212 - #12 print
+INFO  16:49:54,213 - #6 (
+INFO  16:49:54,213 - #33 5
+INFO  16:49:54,213 - #7 )
+INFO  16:49:54,214 - #5 ;
+INFO  16:49:54,214 - #9 return
+INFO  16:49:54,214 - #5 ;
+INFO  16:49:54,215 - #4 }
+INFO  16:49:54,215 - #13 void
+INFO  16:49:54,215 - #36 main
+INFO  16:49:54,216 - #6 (
+INFO  16:49:54,220 - #7 )
+INFO  16:49:54,220 - #3 {
+INFO  16:49:54,221 - #36 ispis5
+INFO  16:49:54,221 - #6 (
+INFO  16:49:54,221 - #7 )
+INFO  16:49:54,222 - #5 ;
+INFO  16:49:54,222 - #4 }
+INFO  16:49:54,222 - #4 }
+INFO  16:49:54,241 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          VarDeclarationItem(
+           unos
+          ) [VarDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    MethodDeclarationsList(
+      NoMethodDeclarationsList(
+      ) [NoMethodDeclarationsList]
+      MethodDeclaration(
+        MethodReturnVoid(
+         ispis5
+        ) [MethodReturnVoid]
+        NoFormParams(
+        ) [NoFormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        StmtList(
+          StmtList(
+            NoStmtList(
+            ) [NoStmtList]
+            PrintStmt(
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   5
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+              NoNumberConstant(
+              ) [NoNumberConstant]
+            ) [PrintStmt]
+          ) [StmtList]
+          ReturnStmt(
+            NoReturnExpr(
+            ) [NoReturnExpr]
+          ) [ReturnStmt]
+        ) [StmtList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      StmtList(
+        NoStmtList(
+        ) [NoStmtList]
+        AssignStmt(
+          DesignatorProcCall(
+            ScalarDesignator(
+             ispis5
+            ) [ScalarDesignator]
+            NoActualPars(
+            ) [NoActualPars]
+          ) [DesignatorProcCall]
+        ) [AssignStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  16:49:54,242 - ===================================
+INFO  16:49:54,245 - Deklarisana promenljiva unos na liniji 5
+INFO  16:49:54,245 - Obradjuje se funkcija ispis5 na liniji 7
+INFO  16:49:54,245 - Obradjuje se funkcija main na liniji 14
+INFO  16:49:54,245 - ===================================
+INFO  16:49:54,255 - Parsiranje uspesno zavrseno! Nvars = 1

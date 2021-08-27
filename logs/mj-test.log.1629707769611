@@ -1,0 +1,169 @@
+INFO  10:35:06,570 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  10:35:06,667 - #2 program
+INFO  10:35:06,667 - #36 test301
+INFO  10:35:06,667 - #36 int
+INFO  10:35:06,670 - #36 unos
+INFO  10:35:06,671 - #5 ;
+INFO  10:35:06,671 - #3 {
+INFO  10:35:06,672 - #13 void
+INFO  10:35:06,675 - #36 ispis
+INFO  10:35:06,675 - #6 (
+INFO  10:35:06,675 - #36 int
+INFO  10:35:06,676 - #36 a
+INFO  10:35:06,676 - #7 )
+INFO  10:35:06,676 - #3 {
+INFO  10:35:06,678 - #12 print
+INFO  10:35:06,680 - #6 (
+INFO  10:35:06,681 - #36 a
+INFO  10:35:06,681 - #7 )
+INFO  10:35:06,684 - #5 ;
+INFO  10:35:06,684 - #4 }
+INFO  10:35:06,684 - #13 void
+INFO  10:35:06,685 - #36 main
+INFO  10:35:06,685 - #6 (
+INFO  10:35:06,690 - #7 )
+INFO  10:35:06,691 - #36 char
+INFO  10:35:06,691 - #36 c
+INFO  10:35:06,691 - #5 ;
+INFO  10:35:06,691 - #3 {
+INFO  10:35:06,691 - #36 c
+INFO  10:35:06,691 - #8 =
+INFO  10:35:06,691 - #34 A
+INFO  10:35:06,691 - #5 ;
+INFO  10:35:06,692 - #36 ispis
+INFO  10:35:06,692 - #6 (
+INFO  10:35:06,692 - #36 c
+INFO  10:35:06,692 - #7 )
+INFO  10:35:06,693 - #5 ;
+INFO  10:35:06,693 - #4 }
+INFO  10:35:06,693 - #4 }
+INFO  10:35:06,709 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          VarDeclarationItem(
+           unos
+          ) [VarDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    MethodDeclarationsList(
+      NoMethodDeclarationsList(
+      ) [NoMethodDeclarationsList]
+      MethodDeclaration(
+        MethodReturnVoid(
+         ispis
+        ) [MethodReturnVoid]
+        FormParams(
+          SingleFormalParamDecl(
+            ScalarParam(
+              Type(
+               int
+              ) [Type]
+             a
+            ) [ScalarParam]
+          ) [SingleFormalParamDecl]
+        ) [FormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        StmtList(
+          NoStmtList(
+          ) [NoStmtList]
+          PrintStmt(
+            ExprTerm(
+              TermFactor(
+                FactorDesignator(
+                  ScalarDesignator(
+                   a
+                  ) [ScalarDesignator]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprTerm]
+            NoNumberConstant(
+            ) [NoNumberConstant]
+          ) [PrintStmt]
+        ) [StmtList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           char
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             c
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      StmtList(
+        StmtList(
+          NoStmtList(
+          ) [NoStmtList]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               c
+              ) [ScalarDesignator]
+              ExprTerm(
+                TermFactor(
+                  FactorChar(
+                   A
+                  ) [FactorChar]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [StmtList]
+        AssignStmt(
+          DesignatorProcCall(
+            ScalarDesignator(
+             ispis
+            ) [ScalarDesignator]
+            YesActualPars(
+              SingleActualParam(
+                ExprTerm(
+                  TermFactor(
+                    FactorDesignator(
+                      ScalarDesignator(
+                       c
+                      ) [ScalarDesignator]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [SingleActualParam]
+            ) [YesActualPars]
+          ) [DesignatorProcCall]
+        ) [AssignStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  10:35:06,710 - ===================================
+INFO  10:35:06,716 - Deklarisana promenljiva unos na liniji 5
+INFO  10:35:06,716 - Obradjuje se funkcija ispis na liniji 7
+INFO  10:35:06,718 - Obradjuje se funkcija main na liniji 12
+INFO  10:35:06,718 - Deklarisana promenljiva c na liniji 13
+ERROR 10:35:06,720 - 1. stvarni parametar nije kompatibilan pri dodeli! Semanticka greska na liniji 16
+INFO  10:35:06,720 - ===================================
+ERROR 10:35:06,721 - Parsiranje NIJE uspesno zavrseno!

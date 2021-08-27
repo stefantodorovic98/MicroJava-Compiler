@@ -1,0 +1,192 @@
+INFO  17:23:46,073 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:23:46,158 - #2 program
+INFO  17:23:46,158 - #36 test301
+INFO  17:23:46,159 - #36 int
+INFO  17:23:46,160 - #36 unos
+INFO  17:23:46,161 - #5 ;
+INFO  17:23:46,161 - #3 {
+INFO  17:23:46,161 - #13 void
+INFO  17:23:46,162 - #36 ispis5
+INFO  17:23:46,162 - #6 (
+INFO  17:23:46,163 - #7 )
+INFO  17:23:46,163 - #3 {
+INFO  17:23:46,164 - #12 print
+INFO  17:23:46,164 - #6 (
+INFO  17:23:46,165 - #33 5
+INFO  17:23:46,165 - #7 )
+INFO  17:23:46,166 - #5 ;
+INFO  17:23:46,166 - #9 return
+INFO  17:23:46,166 - #5 ;
+INFO  17:23:46,167 - #4 }
+INFO  17:23:46,167 - #36 int
+INFO  17:23:46,167 - #36 vrati10
+INFO  17:23:46,168 - #6 (
+INFO  17:23:46,172 - #7 )
+INFO  17:23:46,172 - #3 {
+INFO  17:23:46,173 - #9 return
+INFO  17:23:46,173 - #33 10
+INFO  17:23:46,173 - #5 ;
+INFO  17:23:46,173 - #4 }
+INFO  17:23:46,173 - #13 void
+INFO  17:23:46,173 - #36 main
+INFO  17:23:46,173 - #6 (
+INFO  17:23:46,173 - #7 )
+INFO  17:23:46,174 - #36 int
+INFO  17:23:46,174 - #36 a
+INFO  17:23:46,174 - #5 ;
+INFO  17:23:46,174 - #36 int
+INFO  17:23:46,174 - #36 b
+INFO  17:23:46,174 - #5 ;
+INFO  17:23:46,175 - #3 {
+INFO  17:23:46,175 - #36 a
+INFO  17:23:46,175 - #8 =
+INFO  17:23:46,175 - #36 vrati10
+INFO  17:23:46,176 - #6 (
+INFO  17:23:46,176 - #7 )
+INFO  17:23:46,178 - #5 ;
+INFO  17:23:46,178 - #12 print
+ERROR 17:23:46,178 - 
+Sintaksna greska na liniji 23
+INFO  17:23:46,180 - #6 (
+INFO  17:23:46,180 - #36 a
+INFO  17:23:46,180 - #7 )
+INFO  17:23:46,181 - #5 ;
+INFO  17:23:46,181 - #4 }
+INFO  17:23:46,181 - #4 }
+ERROR 17:23:46,181 - Izvrsen oporavak od greske pri konstrukciji iskaza dodele do ;. Greska je u liniji 22
+INFO  17:23:46,204 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          VarDeclarationItem(
+           unos
+          ) [VarDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    MethodDeclarationsList(
+      MethodDeclarationsList(
+        NoMethodDeclarationsList(
+        ) [NoMethodDeclarationsList]
+        MethodDeclaration(
+          MethodReturnVoid(
+           ispis5
+          ) [MethodReturnVoid]
+          NoFormParams(
+          ) [NoFormParams]
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          StmtList(
+            StmtList(
+              NoStmtList(
+              ) [NoStmtList]
+              PrintStmt(
+                ExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     5
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                NoNumberConstant(
+                ) [NoNumberConstant]
+              ) [PrintStmt]
+            ) [StmtList]
+            ReturnStmt(
+              NoReturnExpr(
+              ) [NoReturnExpr]
+            ) [ReturnStmt]
+          ) [StmtList]
+        ) [MethodDeclaration]
+      ) [MethodDeclarationsList]
+      MethodDeclaration(
+        MethodReturnType(
+          Type(
+           int
+          ) [Type]
+         vrati10
+        ) [MethodReturnType]
+        NoFormParams(
+        ) [NoFormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        StmtList(
+          NoStmtList(
+          ) [NoStmtList]
+          ReturnStmt(
+            YesReturnExpr(
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   10
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [YesReturnExpr]
+          ) [ReturnStmt]
+        ) [StmtList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               a
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             b
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      StmtList(
+        NoStmtList(
+        ) [NoStmtList]
+        AssignStmt(
+          ErrorInAssigningValue(
+          ) [ErrorInAssigningValue]
+        ) [AssignStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  17:23:46,204 - ===================================
+INFO  17:23:46,209 - Deklarisana promenljiva unos na liniji 5
+INFO  17:23:46,210 - Obradjuje se funkcija ispis5 na liniji 7
+INFO  17:23:46,210 - Obradjuje se funkcija vrati10 na liniji 13
+INFO  17:23:46,210 - Obradjuje se funkcija main na liniji 18
+INFO  17:23:46,211 - Deklarisana promenljiva a na liniji 19
+INFO  17:23:46,211 - Deklarisana promenljiva b na liniji 20
+INFO  17:23:46,211 - ===================================
+ERROR 17:23:46,212 - Parsiranje NIJE uspesno zavrseno!

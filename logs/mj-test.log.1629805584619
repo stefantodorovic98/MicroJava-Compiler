@@ -1,0 +1,65 @@
+INFO  13:45:59,804 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:45:59,866 - #2 program
+INFO  13:45:59,867 - #36 test301
+INFO  13:45:59,867 - #36 int
+INFO  13:45:59,868 - #36 unos
+INFO  13:45:59,869 - #11 ,
+INFO  13:45:59,869 - #36 a
+INFO  13:45:59,869 - #11 ,
+INFO  13:45:59,870 - #36 b
+INFO  13:45:59,870 - #5 ;
+INFO  13:45:59,870 - #36 bool
+INFO  13:45:59,870 - #36 uslov1
+INFO  13:45:59,871 - #11 ,
+INFO  13:45:59,871 - #36 uslov2
+INFO  13:45:59,871 - #5 ;
+INFO  13:45:59,871 - #3 {
+INFO  13:45:59,871 - #36 int
+INFO  13:45:59,872 - #36 fun
+INFO  13:45:59,872 - #6 (
+INFO  13:45:59,872 - #36 int
+INFO  13:45:59,872 - #36 a
+INFO  13:45:59,873 - #11 ,
+INFO  13:45:59,873 - #36 int
+INFO  13:45:59,878 - #36 b
+INFO  13:45:59,878 - #11 ,
+INFO  13:45:59,878 - #36 int
+INFO  13:45:59,878 - #36 c
+INFO  13:45:59,878 - #7 )
+INFO  13:45:59,878 - #3 {
+INFO  13:45:59,879 - #9 return
+INFO  13:45:59,880 - #36 c
+INFO  13:45:59,880 - #10 +
+INFO  13:45:59,881 - #36 b
+INFO  13:45:59,882 - #5 ;
+INFO  13:45:59,882 - #4 }
+INFO  13:45:59,883 - #13 void
+INFO  13:45:59,883 - #36 main
+INFO  13:45:59,883 - #6 (
+INFO  13:45:59,883 - #7 )
+INFO  13:45:59,884 - #3 {
+INFO  13:45:59,884 - #36 a
+INFO  13:45:59,884 - #8 =
+INFO  13:45:59,884 - #36 b
+INFO  13:45:59,884 - #5 ;
+INFO  13:45:59,884 - #37 if
+INFO  13:45:59,885 - #6 (
+INFO  13:45:59,885 - #36 uslov1
+INFO  13:45:59,886 - #40 &&
+INFO  13:45:59,887 - #39 ||
+ERROR 13:45:59,887 - 
+Sintaksna greska na liniji 16
+INFO  13:45:59,888 - #36 uslov2
+INFO  13:45:59,888 - #7 )
+INFO  13:45:59,888 - #3 {
+INFO  13:45:59,889 - #36 unos
+INFO  13:45:59,889 - #8 =
+INFO  13:45:59,889 - #36 b
+INFO  13:45:59,889 - #5 ;
+INFO  13:45:59,889 - #4 }
+INFO  13:45:59,889 - #4 }
+INFO  13:45:59,889 - #4 }
+ERROR 13:45:59,890 - Izvrsen oporavak od greske pri konstrukciji iskaza dodele do ;. Greska je u liniji 16
+ERROR 13:45:59,890 - 
+Sintaksna greska na liniji 20
+ERROR 13:45:59,890 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 20

@@ -1,0 +1,212 @@
+INFO  17:18:56,605 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  17:18:56,691 - #2 program
+INFO  17:18:56,692 - #36 test301
+INFO  17:18:56,692 - #36 int
+INFO  17:18:56,694 - #36 unos
+INFO  17:18:56,695 - #5 ;
+INFO  17:18:56,695 - #3 {
+INFO  17:18:56,696 - #13 void
+INFO  17:18:56,697 - #36 ispis5
+INFO  17:18:56,697 - #6 (
+INFO  17:18:56,697 - #7 )
+INFO  17:18:56,698 - #3 {
+INFO  17:18:56,699 - #12 print
+INFO  17:18:56,700 - #6 (
+INFO  17:18:56,700 - #33 5
+INFO  17:18:56,700 - #7 )
+INFO  17:18:56,701 - #5 ;
+INFO  17:18:56,701 - #9 return
+INFO  17:18:56,702 - #5 ;
+INFO  17:18:56,703 - #4 }
+INFO  17:18:56,703 - #36 int
+INFO  17:18:56,703 - #36 vrati10
+INFO  17:18:56,703 - #6 (
+INFO  17:18:56,708 - #7 )
+INFO  17:18:56,709 - #3 {
+INFO  17:18:56,709 - #9 return
+INFO  17:18:56,709 - #33 10
+INFO  17:18:56,709 - #5 ;
+INFO  17:18:56,709 - #4 }
+INFO  17:18:56,710 - #13 void
+INFO  17:18:56,710 - #36 main
+INFO  17:18:56,710 - #6 (
+INFO  17:18:56,710 - #7 )
+INFO  17:18:56,710 - #36 int
+INFO  17:18:56,710 - #36 a
+INFO  17:18:56,710 - #5 ;
+INFO  17:18:56,711 - #36 int
+INFO  17:18:56,711 - #36 b
+INFO  17:18:56,711 - #5 ;
+INFO  17:18:56,711 - #3 {
+INFO  17:18:56,711 - #36 a
+INFO  17:18:56,711 - #8 =
+INFO  17:18:56,711 - #33 10
+INFO  17:18:56,711 - #5 ;
+INFO  17:18:56,711 - #12 print
+INFO  17:18:56,712 - #6 (
+INFO  17:18:56,712 - #36 a
+INFO  17:18:56,712 - #7 )
+INFO  17:18:56,712 - #5 ;
+INFO  17:18:56,712 - #4 }
+INFO  17:18:56,712 - #4 }
+INFO  17:18:56,733 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          VarDeclarationItem(
+           unos
+          ) [VarDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    MethodDeclarationsList(
+      MethodDeclarationsList(
+        NoMethodDeclarationsList(
+        ) [NoMethodDeclarationsList]
+        MethodDeclaration(
+          MethodReturnVoid(
+           ispis5
+          ) [MethodReturnVoid]
+          NoFormParams(
+          ) [NoFormParams]
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          StmtList(
+            StmtList(
+              NoStmtList(
+              ) [NoStmtList]
+              PrintStmt(
+                ExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     5
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                NoNumberConstant(
+                ) [NoNumberConstant]
+              ) [PrintStmt]
+            ) [StmtList]
+            ReturnStmt(
+              NoReturnExpr(
+              ) [NoReturnExpr]
+            ) [ReturnStmt]
+          ) [StmtList]
+        ) [MethodDeclaration]
+      ) [MethodDeclarationsList]
+      MethodDeclaration(
+        MethodReturnType(
+          Type(
+           int
+          ) [Type]
+         vrati10
+        ) [MethodReturnType]
+        NoFormParams(
+        ) [NoFormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        StmtList(
+          NoStmtList(
+          ) [NoStmtList]
+          ReturnStmt(
+            YesReturnExpr(
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   10
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [YesReturnExpr]
+          ) [ReturnStmt]
+        ) [StmtList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          NoLocalVarDeclarationsList(
+          ) [NoLocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               a
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             b
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      StmtList(
+        StmtList(
+          NoStmtList(
+          ) [NoStmtList]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               a
+              ) [ScalarDesignator]
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   10
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [StmtList]
+        PrintStmt(
+          ExprTerm(
+            TermFactor(
+              FactorDesignator(
+                ScalarDesignator(
+                 a
+                ) [ScalarDesignator]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprTerm]
+          NoNumberConstant(
+          ) [NoNumberConstant]
+        ) [PrintStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  17:18:56,734 - ===================================
+INFO  17:18:56,738 - Deklarisana promenljiva unos na liniji 5
+INFO  17:18:56,738 - Obradjuje se funkcija ispis5 na liniji 7
+INFO  17:18:56,738 - Obradjuje se funkcija vrati10 na liniji 13
+INFO  17:18:56,738 - Obradjuje se funkcija main na liniji 18
+INFO  17:18:56,738 - Deklarisana promenljiva a na liniji 19
+INFO  17:18:56,738 - Deklarisana promenljiva b na liniji 20
+INFO  17:18:56,739 - ===================================
+INFO  17:18:56,747 - Parsiranje uspesno zavrseno! Nvars = 1

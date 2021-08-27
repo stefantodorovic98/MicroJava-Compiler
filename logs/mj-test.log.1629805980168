@@ -1,0 +1,346 @@
+INFO  13:52:42,219 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:52:42,280 - #2 program
+INFO  13:52:42,280 - #36 test301
+INFO  13:52:42,280 - #36 int
+INFO  13:52:42,281 - #36 unos
+INFO  13:52:42,282 - #11 ,
+INFO  13:52:42,283 - #36 a
+INFO  13:52:42,283 - #11 ,
+INFO  13:52:42,283 - #36 b
+INFO  13:52:42,283 - #5 ;
+INFO  13:52:42,283 - #36 bool
+INFO  13:52:42,284 - #36 uslov1
+INFO  13:52:42,284 - #11 ,
+INFO  13:52:42,284 - #36 uslov2
+INFO  13:52:42,284 - #5 ;
+INFO  13:52:42,284 - #36 int
+INFO  13:52:42,284 - #36 niz1
+INFO  13:52:42,284 - #30 [
+INFO  13:52:42,284 - #21 ]
+INFO  13:52:42,285 - #11 ,
+INFO  13:52:42,285 - #36 niz2
+INFO  13:52:42,285 - #30 [
+INFO  13:52:42,285 - #21 ]
+INFO  13:52:42,290 - #5 ;
+INFO  13:52:42,290 - #3 {
+INFO  13:52:42,290 - #13 void
+INFO  13:52:42,291 - #36 main
+INFO  13:52:42,291 - #6 (
+INFO  13:52:42,291 - #7 )
+INFO  13:52:42,292 - #3 {
+INFO  13:52:42,295 - #36 a
+INFO  13:52:42,295 - #8 =
+INFO  13:52:42,296 - #33 5
+INFO  13:52:42,296 - #5 ;
+INFO  13:52:42,296 - #36 niz1
+INFO  13:52:42,297 - #30 [
+INFO  13:52:42,298 - #21 ]
+ERROR 13:52:42,298 - 
+Sintaksna greska na liniji 13
+INFO  13:52:42,299 - #8 =
+INFO  13:52:42,299 - #16 new
+INFO  13:52:42,299 - #36 int
+INFO  13:52:42,300 - #30 [
+INFO  13:52:42,300 - #33 5
+INFO  13:52:42,300 - #21 ]
+INFO  13:52:42,300 - #5 ;
+INFO  13:52:42,300 - #36 niz2
+INFO  13:52:42,301 - #30 [
+INFO  13:52:42,301 - #21 ]
+ERROR 13:52:42,301 - Izvrsen oporavak od greske pri konstrukciji iskaza dodele do ;. Greska je u liniji 13
+ERROR 13:52:42,302 - 
+Sintaksna greska na liniji 14
+INFO  13:52:42,302 - #8 =
+INFO  13:52:42,302 - #16 new
+INFO  13:52:42,302 - #36 int
+INFO  13:52:42,302 - #30 [
+INFO  13:52:42,302 - #33 5
+INFO  13:52:42,302 - #21 ]
+INFO  13:52:42,302 - #5 ;
+INFO  13:52:42,302 - #47 do
+INFO  13:52:42,302 - #3 {
+INFO  13:52:42,303 - #36 a
+ERROR 13:52:42,303 - Izvrsen oporavak od greske pri konstrukciji iskaza dodele do ;. Greska je u liniji 14
+INFO  13:52:42,304 - #32 --
+INFO  13:52:42,304 - #5 ;
+INFO  13:52:42,304 - #27 read
+INFO  13:52:42,304 - #6 (
+INFO  13:52:42,304 - #36 niz1
+INFO  13:52:42,305 - #30 [
+INFO  13:52:42,305 - #36 a
+INFO  13:52:42,305 - #21 ]
+INFO  13:52:42,305 - #7 )
+INFO  13:52:42,305 - #5 ;
+INFO  13:52:42,306 - #27 read
+INFO  13:52:42,306 - #6 (
+INFO  13:52:42,306 - #36 niz2
+INFO  13:52:42,306 - #30 [
+INFO  13:52:42,306 - #36 a
+INFO  13:52:42,307 - #21 ]
+INFO  13:52:42,307 - #7 )
+INFO  13:52:42,307 - #5 ;
+INFO  13:52:42,307 - #4 }
+INFO  13:52:42,308 - #48 while
+INFO  13:52:42,309 - #6 (
+INFO  13:52:42,310 - #36 a
+INFO  13:52:42,310 - #44 >=
+INFO  13:52:42,310 - #33 0
+INFO  13:52:42,314 - #7 )
+INFO  13:52:42,316 - #5 ;
+INFO  13:52:42,316 - #36 int
+INFO  13:52:42,317 - #36 b
+ERROR 13:52:42,317 - 
+Sintaksna greska na liniji 22
+INFO  13:52:42,317 - #8 =
+INFO  13:52:42,317 - #36 niz1
+INFO  13:52:42,317 - #30 [
+INFO  13:52:42,317 - #33 0
+INFO  13:52:42,317 - #21 ]
+INFO  13:52:42,317 - #51 "
+INFO  13:52:42,317 - #24 *
+INFO  13:52:42,317 - #51 "
+INFO  13:52:42,318 - #36 niz1
+INFO  13:52:42,318 - #51 "
+INFO  13:52:42,318 - #24 *
+INFO  13:52:42,318 - #51 "
+INFO  13:52:42,318 - #36 niz2
+INFO  13:52:42,318 - #5 ;
+INFO  13:52:42,318 - #12 print
+INFO  13:52:42,318 - #6 (
+INFO  13:52:42,318 - #36 b
+ERROR 13:52:42,318 - Izvrsen oporavak od greske pri konstrukciji iskaza dodele do ;. Greska je u liniji 22
+INFO  13:52:42,319 - #7 )
+INFO  13:52:42,319 - #5 ;
+INFO  13:52:42,320 - #4 }
+INFO  13:52:42,320 - #4 }
+INFO  13:52:42,346 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        NoGlobalDeclarationsList(
+        ) [NoGlobalDeclarationsList]
+        GlobalVarDecl(
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            VarDeclarationsList(
+              VarDeclarationsList(
+                OneVarDeclarationItem(
+                  VarDeclarationItem(
+                   unos
+                  ) [VarDeclarationItem]
+                ) [OneVarDeclarationItem]
+                VarDeclarationItem(
+                 a
+                ) [VarDeclarationItem]
+              ) [VarDeclarationsList]
+              VarDeclarationItem(
+               b
+              ) [VarDeclarationItem]
+            ) [VarDeclarationsList]
+          ) [VarDeclarations]
+        ) [GlobalVarDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           bool
+          ) [Type]
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               uslov1
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             uslov2
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            ArrayDeclarationItem(
+             niz1
+            ) [ArrayDeclarationItem]
+          ) [OneVarDeclarationItem]
+          ArrayDeclarationItem(
+           niz2
+          ) [ArrayDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    NoMethodDeclarationsList(
+    ) [NoMethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              StmtList(
+                StmtList(
+                  NoStmtList(
+                  ) [NoStmtList]
+                  AssignStmt(
+                    DesignatorAssignValue(
+                      ScalarDesignator(
+                       a
+                      ) [ScalarDesignator]
+                      ExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           5
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [DesignatorAssignValue]
+                  ) [AssignStmt]
+                ) [StmtList]
+                AssignStmt(
+                  ErrorInAssigningValue(
+                  ) [ErrorInAssigningValue]
+                ) [AssignStmt]
+              ) [StmtList]
+              AssignStmt(
+                ErrorInAssigningValue(
+                ) [ErrorInAssigningValue]
+              ) [AssignStmt]
+            ) [StmtList]
+            DoWhileStmt(
+              DoKeyword(
+              ) [DoKeyword]
+              DoWhileStatements(
+                BlockStmt(
+                  StmtList(
+                    StmtList(
+                      StmtList(
+                        NoStmtList(
+                        ) [NoStmtList]
+                        AssignStmt(
+                          DesignatorDecValue(
+                            ScalarDesignator(
+                             a
+                            ) [ScalarDesignator]
+                          ) [DesignatorDecValue]
+                        ) [AssignStmt]
+                      ) [StmtList]
+                      ReadStmt(
+                        ArrayDesignator(
+                          ArrayDesignatorName(
+                           niz1
+                          ) [ArrayDesignatorName]
+                          ExprTerm(
+                            TermFactor(
+                              FactorDesignator(
+                                ScalarDesignator(
+                                 a
+                                ) [ScalarDesignator]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ExprTerm]
+                        ) [ArrayDesignator]
+                      ) [ReadStmt]
+                    ) [StmtList]
+                    ReadStmt(
+                      ArrayDesignator(
+                        ArrayDesignatorName(
+                         niz2
+                        ) [ArrayDesignatorName]
+                        ExprTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              ScalarDesignator(
+                               a
+                              ) [ScalarDesignator]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [ArrayDesignator]
+                    ) [ReadStmt]
+                  ) [StmtList]
+                ) [BlockStmt]
+              ) [DoWhileStatements]
+              WhileKeyword(
+              ) [WhileKeyword]
+              ConditionEndWhile(
+                ConditionTerm(
+                  ConditionFact(
+                    CondFact(
+                      ExprTerm(
+                        TermFactor(
+                          FactorDesignator(
+                            ScalarDesignator(
+                             a
+                            ) [ScalarDesignator]
+                          ) [FactorDesignator]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                      YesSecExpr(
+                        GreatEqualOperation(
+                        ) [GreatEqualOperation]
+                        ExprTerm(
+                          TermFactor(
+                            FactorNumber(
+                             0
+                            ) [FactorNumber]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [YesSecExpr]
+                    ) [CondFact]
+                  ) [ConditionFact]
+                ) [ConditionTerm]
+              ) [ConditionEndWhile]
+            ) [DoWhileStmt]
+          ) [StmtList]
+          AssignStmt(
+            ErrorInAssigningValue(
+            ) [ErrorInAssigningValue]
+          ) [AssignStmt]
+        ) [StmtList]
+        PrintStmt(
+          ExprTerm(
+            TermFactor(
+              FactorDesignator(
+                ScalarDesignator(
+                 b
+                ) [ScalarDesignator]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprTerm]
+          NoNumberConstant(
+          ) [NoNumberConstant]
+        ) [PrintStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  13:52:42,347 - ===================================
+INFO  13:52:42,355 - Deklarisana promenljiva unos na liniji 5
+INFO  13:52:42,355 - Deklarisana promenljiva a na liniji 5
+INFO  13:52:42,355 - Deklarisana promenljiva b na liniji 5
+INFO  13:52:42,355 - Deklarisana promenljiva uslov1 na liniji 6
+INFO  13:52:42,355 - Deklarisana promenljiva uslov2 na liniji 6
+INFO  13:52:42,356 - Deklarisan niz niz1 na liniji 7
+INFO  13:52:42,356 - Deklarisan niz niz2 na liniji 7
+INFO  13:52:42,356 - Obradjuje se funkcija main na liniji 10
+INFO  13:52:42,357 - ===================================
+ERROR 13:52:42,359 - Parsiranje NIJE uspesno zavrseno!

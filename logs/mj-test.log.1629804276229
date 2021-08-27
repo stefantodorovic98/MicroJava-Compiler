@@ -1,0 +1,75 @@
+INFO  13:24:02,439 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:24:02,492 - #2 program
+INFO  13:24:02,493 - #36 test301
+INFO  13:24:02,493 - #36 int
+INFO  13:24:02,494 - #36 unos
+INFO  13:24:02,495 - #10 +
+ERROR 13:24:02,495 - 
+Sintaksna greska na liniji 5
+INFO  13:24:02,496 - #11 ,
+INFO  13:24:02,496 - #36 a
+INFO  13:24:02,496 - #11 ,
+INFO  13:24:02,497 - #36 b
+ERROR 13:24:02,497 - Izvrsen oporavak od greske u definiciji globalne promenljive do , ili ;. Greska je u liniji 5
+INFO  13:24:02,498 - #10 +
+ERROR 13:24:02,498 - 
+Sintaksna greska na liniji 5
+INFO  13:24:02,498 - #5 ;
+INFO  13:24:02,498 - #3 {
+INFO  13:24:02,498 - #13 void
+INFO  13:24:02,499 - #36 main
+ERROR 13:24:02,499 - Izvrsen oporavak od greske u definiciji globalne promenljive do , ili ;. Greska je u liniji 5
+INFO  13:24:02,504 - #6 (
+INFO  13:24:02,504 - #7 )
+INFO  13:24:02,505 - #3 {
+INFO  13:24:02,505 - #4 }
+INFO  13:24:02,506 - #4 }
+INFO  13:24:02,525 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              ErrorInDeclaringItem(
+              ) [ErrorInDeclaringItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             a
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+          ErrorInDeclaringItem(
+          ) [ErrorInDeclaringItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    NoMethodDeclarationsList(
+    ) [NoMethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      NoStmtList(
+      ) [NoStmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  13:24:02,525 - ===================================
+INFO  13:24:02,529 - Deklarisana promenljiva a na liniji 5
+INFO  13:24:02,529 - Obradjuje se funkcija main na liniji 7
+INFO  13:24:02,529 - ===================================
+ERROR 13:24:02,530 - Parsiranje NIJE uspesno zavrseno!

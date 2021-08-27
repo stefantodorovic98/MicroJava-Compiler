@@ -1,0 +1,73 @@
+INFO  13:23:20,818 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:23:20,876 - #2 program
+INFO  13:23:20,877 - #36 test301
+INFO  13:23:20,877 - #36 int
+INFO  13:23:20,878 - #36 unos
+INFO  13:23:20,879 - #10 +
+ERROR 13:23:20,879 - 
+Sintaksna greska na liniji 5
+INFO  13:23:20,880 - #11 ,
+INFO  13:23:20,880 - #36 a
+INFO  13:23:20,880 - #11 ,
+INFO  13:23:20,881 - #36 b
+ERROR 13:23:20,881 - Izvrsen oporavak od greske u definiciji globalne promenljive do , ili ;. Greska je u liniji 5
+INFO  13:23:20,882 - #5 ;
+INFO  13:23:20,882 - #3 {
+INFO  13:23:20,883 - #13 void
+INFO  13:23:20,883 - #36 main
+INFO  13:23:20,883 - #6 (
+INFO  13:23:20,884 - #7 )
+INFO  13:23:20,884 - #3 {
+INFO  13:23:20,885 - #4 }
+INFO  13:23:20,891 - #4 }
+INFO  13:23:20,910 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              ErrorInDeclaringItem(
+              ) [ErrorInDeclaringItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             a
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+          VarDeclarationItem(
+           b
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    NoMethodDeclarationsList(
+    ) [NoMethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      NoStmtList(
+      ) [NoStmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  13:23:20,910 - ===================================
+INFO  13:23:20,915 - Deklarisana promenljiva a na liniji 5
+INFO  13:23:20,915 - Deklarisana promenljiva b na liniji 5
+INFO  13:23:20,915 - Obradjuje se funkcija main na liniji 7
+INFO  13:23:20,916 - ===================================
+ERROR 13:23:20,917 - Parsiranje NIJE uspesno zavrseno!

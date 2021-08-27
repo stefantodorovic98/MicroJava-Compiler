@@ -1,0 +1,170 @@
+INFO  20:24:05,207 - Compiling source file: C:\pp1domaci\workspace\MJCompilerOdbrana\test\program.mj
+INFO  20:24:05,272 - #2 program
+INFO  20:24:05,272 - #36 swapDvaElementa
+INFO  20:24:05,272 - #36 int
+INFO  20:24:05,273 - #36 a
+INFO  20:24:05,274 - #5 ;
+INFO  20:24:05,274 - #36 int
+INFO  20:24:05,275 - #36 b
+INFO  20:24:05,275 - #5 ;
+INFO  20:24:05,275 - #36 int
+INFO  20:24:05,275 - #36 niz
+INFO  20:24:05,275 - #30 [
+INFO  20:24:05,275 - #21 ]
+INFO  20:24:05,276 - #5 ;
+INFO  20:24:05,276 - #3 {
+INFO  20:24:05,276 - #13 void
+INFO  20:24:05,277 - #36 main
+INFO  20:24:05,277 - #6 (
+INFO  20:24:05,277 - #7 )
+INFO  20:24:05,278 - #3 {
+INFO  20:24:05,279 - #54 goto
+INFO  20:24:05,280 - #36 A
+INFO  20:24:05,280 - #5 ;
+INFO  20:24:05,285 - #12 print
+INFO  20:24:05,285 - #6 (
+INFO  20:24:05,285 - #33 5
+INFO  20:24:05,285 - #7 )
+INFO  20:24:05,287 - #5 ;
+INFO  20:24:05,287 - #12 print
+INFO  20:24:05,287 - #6 (
+INFO  20:24:05,287 - #33 19
+INFO  20:24:05,287 - #7 )
+INFO  20:24:05,287 - #5 ;
+INFO  20:24:05,287 - #36 A
+INFO  20:24:05,287 - #14 :
+INFO  20:24:05,288 - #12 print
+INFO  20:24:05,288 - #6 (
+INFO  20:24:05,288 - #33 31
+INFO  20:24:05,288 - #7 )
+INFO  20:24:05,289 - #5 ;
+INFO  20:24:05,289 - #4 }
+INFO  20:24:05,289 - #4 }
+INFO  20:24:05,306 - Program(
+  ProgName(
+   swapDvaElementa
+  ) [ProgName]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      GlobalDeclarationsList(
+        NoGlobalDeclarationsList(
+        ) [NoGlobalDeclarationsList]
+        GlobalVarDecl(
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               a
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [GlobalVarDecl]
+      ) [GlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             b
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          ArrayDeclarationItem(
+           niz
+          ) [ArrayDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    NoMethodDeclarationsList(
+    ) [NoMethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              NoStmtList(
+              ) [NoStmtList]
+              NoLabelList(
+                GotoStmt(
+                 A
+                ) [GotoStmt]
+              ) [NoLabelList]
+            ) [StmtList]
+            NoLabelList(
+              PrintStmt(
+                ExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     5
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                NoNumberConstant(
+                ) [NoNumberConstant]
+              ) [PrintStmt]
+            ) [NoLabelList]
+          ) [StmtList]
+          NoLabelList(
+            PrintStmt(
+              ExprTerm(
+                TermFactor(
+                  FactorNumber(
+                   19
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [ExprTerm]
+              NoNumberConstant(
+              ) [NoNumberConstant]
+            ) [PrintStmt]
+          ) [NoLabelList]
+        ) [StmtList]
+        YesLabelList(
+          OneLabel(
+            Label(
+             A
+            ) [Label]
+          ) [OneLabel]
+          PrintStmt(
+            ExprTerm(
+              TermFactor(
+                FactorNumber(
+                 31
+                ) [FactorNumber]
+              ) [TermFactor]
+            ) [ExprTerm]
+            NoNumberConstant(
+            ) [NoNumberConstant]
+          ) [PrintStmt]
+        ) [YesLabelList]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  20:24:05,307 - ===================================
+INFO  20:24:05,313 - Deklarisana promenljiva a na liniji 5
+INFO  20:24:05,313 - Deklarisana promenljiva b na liniji 6
+INFO  20:24:05,313 - Deklarisan niz niz na liniji 7
+INFO  20:24:05,313 - Obradjuje se funkcija main na liniji 10
+INFO  20:24:05,313 - ===================================
+INFO  20:24:05,320 - Parsiranje uspesno zavrseno! Nvars = 3

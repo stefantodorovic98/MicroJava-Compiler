@@ -1,0 +1,22 @@
+// maksNiza
+
+program maksNiza
+
+int a;
+int b;
+int niz[];
+{
+
+	void main()	
+	{ 
+		niz = new int[5];
+		niz[0] = 41;
+		niz[1] = 40;
+		niz[2] = 27;
+		niz[3] = 58;
+		niz[4] = 4;
+		b = 5;
+		a = max niz;
+		print(a);
+	}
+}

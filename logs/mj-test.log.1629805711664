@@ -1,0 +1,276 @@
+INFO  13:46:24,639 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:46:24,705 - #2 program
+INFO  13:46:24,705 - #36 test301
+INFO  13:46:24,705 - #36 int
+INFO  13:46:24,707 - #36 unos
+INFO  13:46:24,707 - #11 ,
+INFO  13:46:24,708 - #36 a
+INFO  13:46:24,708 - #11 ,
+INFO  13:46:24,708 - #36 b
+INFO  13:46:24,708 - #5 ;
+INFO  13:46:24,708 - #36 bool
+INFO  13:46:24,709 - #36 uslov1
+INFO  13:46:24,709 - #11 ,
+INFO  13:46:24,709 - #36 uslov2
+INFO  13:46:24,709 - #5 ;
+INFO  13:46:24,709 - #3 {
+INFO  13:46:24,709 - #36 int
+INFO  13:46:24,710 - #36 fun
+INFO  13:46:24,710 - #6 (
+INFO  13:46:24,711 - #36 int
+INFO  13:46:24,711 - #36 a
+INFO  13:46:24,711 - #11 ,
+INFO  13:46:24,711 - #36 int
+INFO  13:46:24,712 - #36 b
+INFO  13:46:24,712 - #11 ,
+INFO  13:46:24,712 - #36 int
+INFO  13:46:24,712 - #36 c
+INFO  13:46:24,712 - #7 )
+INFO  13:46:24,712 - #3 {
+INFO  13:46:24,713 - #9 return
+INFO  13:46:24,713 - #36 c
+INFO  13:46:24,714 - #10 +
+INFO  13:46:24,714 - #36 b
+INFO  13:46:24,715 - #5 ;
+INFO  13:46:24,716 - #4 }
+INFO  13:46:24,716 - #13 void
+INFO  13:46:24,716 - #36 main
+INFO  13:46:24,716 - #6 (
+INFO  13:46:24,717 - #7 )
+INFO  13:46:24,718 - #3 {
+INFO  13:46:24,718 - #36 a
+INFO  13:46:24,718 - #8 =
+INFO  13:46:24,718 - #36 b
+INFO  13:46:24,718 - #5 ;
+INFO  13:46:24,718 - #37 if
+INFO  13:46:24,719 - #6 (
+INFO  13:46:24,720 - #36 uslov1
+INFO  13:46:24,720 - #40 &&
+INFO  13:46:24,721 - #39 ||
+ERROR 13:46:24,721 - 
+Sintaksna greska na liniji 16
+INFO  13:46:24,722 - #36 uslov2
+INFO  13:46:24,723 - #7 )
+INFO  13:46:24,723 - #3 {
+ERROR 13:46:24,724 - Izvrsen oporavak od greske u logickom izrazu unutar if naredbe. Greska je u liniji 16
+INFO  13:46:24,726 - #36 unos
+INFO  13:46:24,726 - #8 =
+INFO  13:46:24,726 - #36 b
+INFO  13:46:24,726 - #5 ;
+INFO  13:46:24,726 - #4 }
+INFO  13:46:24,726 - #4 }
+INFO  13:46:24,727 - #4 }
+INFO  13:46:24,746 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    GlobalDeclarationsList(
+      NoGlobalDeclarationsList(
+      ) [NoGlobalDeclarationsList]
+      GlobalVarDecl(
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          VarDeclarationsList(
+            VarDeclarationsList(
+              OneVarDeclarationItem(
+                VarDeclarationItem(
+                 unos
+                ) [VarDeclarationItem]
+              ) [OneVarDeclarationItem]
+              VarDeclarationItem(
+               a
+              ) [VarDeclarationItem]
+            ) [VarDeclarationsList]
+            VarDeclarationItem(
+             b
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+        ) [VarDeclarations]
+      ) [GlobalVarDecl]
+    ) [GlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         bool
+        ) [Type]
+        VarDeclarationsList(
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             uslov1
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+          VarDeclarationItem(
+           uslov2
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    MethodDeclarationsList(
+      NoMethodDeclarationsList(
+      ) [NoMethodDeclarationsList]
+      MethodDeclaration(
+        MethodReturnType(
+          Type(
+           int
+          ) [Type]
+         fun
+        ) [MethodReturnType]
+        FormParams(
+          FormalParamDecls(
+            FormalParamDecls(
+              SingleFormalParamDecl(
+                ScalarParam(
+                  Type(
+                   int
+                  ) [Type]
+                 a
+                ) [ScalarParam]
+              ) [SingleFormalParamDecl]
+              ScalarParam(
+                Type(
+                 int
+                ) [Type]
+               b
+              ) [ScalarParam]
+            ) [FormalParamDecls]
+            ScalarParam(
+              Type(
+               int
+              ) [Type]
+             c
+            ) [ScalarParam]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        StmtList(
+          NoStmtList(
+          ) [NoStmtList]
+          ReturnStmt(
+            YesReturnExpr(
+              ExprAdd(
+                ExprTerm(
+                  TermFactor(
+                    FactorDesignator(
+                      ScalarDesignator(
+                       c
+                      ) [ScalarDesignator]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                PlusOperation(
+                ) [PlusOperation]
+                TermFactor(
+                  FactorDesignator(
+                    ScalarDesignator(
+                     b
+                    ) [ScalarDesignator]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprAdd]
+            ) [YesReturnExpr]
+          ) [ReturnStmt]
+        ) [StmtList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      StmtList(
+        StmtList(
+          NoStmtList(
+          ) [NoStmtList]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               a
+              ) [ScalarDesignator]
+              ExprTerm(
+                TermFactor(
+                  FactorDesignator(
+                    ScalarDesignator(
+                     b
+                    ) [ScalarDesignator]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [StmtList]
+        IfStmt(
+          IfKeyword(
+          ) [IfKeyword]
+          ConditionEnd(
+            ConditionOr(
+              ErrorInCondition(
+              ) [ErrorInCondition]
+              LogicalOr(
+              ) [LogicalOr]
+              ConditionFact(
+                CondFact(
+                  ExprTerm(
+                    TermFactor(
+                      FactorDesignator(
+                        ScalarDesignator(
+                         uslov2
+                        ) [ScalarDesignator]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                  NoSecExpr(
+                  ) [NoSecExpr]
+                ) [CondFact]
+              ) [ConditionFact]
+            ) [ConditionOr]
+          ) [ConditionEnd]
+          IfStatements(
+            BlockStmt(
+              StmtList(
+                NoStmtList(
+                ) [NoStmtList]
+                AssignStmt(
+                  DesignatorAssignValue(
+                    ScalarDesignator(
+                     unos
+                    ) [ScalarDesignator]
+                    ExprTerm(
+                      TermFactor(
+                        FactorDesignator(
+                          ScalarDesignator(
+                           b
+                          ) [ScalarDesignator]
+                        ) [FactorDesignator]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [DesignatorAssignValue]
+                ) [AssignStmt]
+              ) [StmtList]
+            ) [BlockStmt]
+          ) [IfStatements]
+          NoElsePart(
+          ) [NoElsePart]
+        ) [IfStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  13:46:24,747 - ===================================
+INFO  13:46:24,752 - Deklarisana promenljiva unos na liniji 5
+INFO  13:46:24,752 - Deklarisana promenljiva a na liniji 5
+INFO  13:46:24,752 - Deklarisana promenljiva b na liniji 5
+INFO  13:46:24,752 - Deklarisana promenljiva uslov1 na liniji 6
+INFO  13:46:24,752 - Deklarisana promenljiva uslov2 na liniji 6
+INFO  13:46:24,758 - Obradjuje se funkcija fun na liniji 8
+INFO  13:46:24,759 - Obradjuje se funkcija main na liniji 13
+INFO  13:46:24,759 - ===================================
+ERROR 13:46:24,761 - Parsiranje NIJE uspesno zavrseno!

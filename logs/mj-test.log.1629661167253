@@ -1,0 +1,27 @@
+INFO  21:39:03,369 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  21:39:03,431 - #2 program
+INFO  21:39:03,431 - #36 test301
+INFO  21:39:03,431 - #36 int
+INFO  21:39:03,433 - #36 unos
+INFO  21:39:03,433 - #5 ;
+INFO  21:39:03,434 - #3 {
+INFO  21:39:03,434 - #36 int
+INFO  21:39:03,435 - #36 vrati
+INFO  21:39:03,435 - #6 (
+INFO  21:39:03,435 - #7 )
+INFO  21:39:03,436 - #3 {
+INFO  21:39:03,437 - #9 return
+INFO  21:39:03,437 - #33 101
+INFO  21:39:03,438 - #5 ;
+INFO  21:39:03,438 - #4 }
+INFO  21:39:03,438 - #36 int
+INFO  21:39:03,439 - #36 suma
+INFO  21:39:03,439 - #6 (
+INFO  21:39:03,439 - #36 int
+INFO  21:39:03,439 - #36 a
+INFO  21:39:03,439 - #11 ,
+INFO  21:39:03,440 - #36 int
+INFO  21:39:03,445 - #30 [
+ERROR 21:39:03,445 - 
+Sintaksna greska na liniji 12
+ERROR 21:39:03,446 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

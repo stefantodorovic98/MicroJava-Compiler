@@ -1,0 +1,11 @@
+INFO  14:25:42,498 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  14:25:42,709 - #2 program
+INFO  14:25:42,709 - #36 test301
+INFO  14:25:42,709 - #36 int
+INFO  14:25:42,714 - #36 unos
+INFO  14:25:42,716 - #5 ;
+INFO  14:25:42,717 - #3 {
+INFO  14:25:42,717 - #51 "
+ERROR 14:25:42,718 - 
+Sintaksna greska na liniji 6
+ERROR 14:25:42,719 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 6

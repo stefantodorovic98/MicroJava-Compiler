@@ -1,0 +1,71 @@
+INFO  13:23:49,540 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:23:49,600 - #2 program
+INFO  13:23:49,600 - #36 test301
+INFO  13:23:49,600 - #36 int
+INFO  13:23:49,602 - #36 unos
+INFO  13:23:49,603 - #11 ,
+INFO  13:23:49,603 - #36 a
+INFO  13:23:49,603 - #11 ,
+INFO  13:23:49,603 - #36 b
+INFO  13:23:49,604 - #5 ;
+INFO  13:23:49,604 - #3 {
+INFO  13:23:49,604 - #13 void
+INFO  13:23:49,605 - #36 main
+INFO  13:23:49,605 - #6 (
+INFO  13:23:49,605 - #7 )
+INFO  13:23:49,606 - #3 {
+INFO  13:23:49,606 - #4 }
+INFO  13:23:49,607 - #4 }
+INFO  13:23:49,625 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               unos
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             a
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+          VarDeclarationItem(
+           b
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    NoMethodDeclarationsList(
+    ) [NoMethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      NoStmtList(
+      ) [NoStmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  13:23:49,630 - ===================================
+INFO  13:23:49,634 - Deklarisana promenljiva unos na liniji 5
+INFO  13:23:49,635 - Deklarisana promenljiva a na liniji 5
+INFO  13:23:49,635 - Deklarisana promenljiva b na liniji 5
+INFO  13:23:49,635 - Obradjuje se funkcija main na liniji 7
+INFO  13:23:49,635 - ===================================
+INFO  13:23:49,642 - Parsiranje uspesno zavrseno! Nvars = 3

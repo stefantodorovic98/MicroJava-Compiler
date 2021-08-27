@@ -1,0 +1,17 @@
+// swapDvaElementa
+
+program swapDvaElementa
+
+int a;
+int b;
+int niz[];
+{
+
+	void main()	
+	{ 
+		goto A;
+		print(5);
+		print(19);
+		A: print(31);
+	}
+}

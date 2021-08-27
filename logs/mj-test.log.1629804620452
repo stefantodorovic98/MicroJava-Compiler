@@ -1,0 +1,20 @@
+INFO  13:29:55,284 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:29:55,377 - #2 program
+INFO  13:29:55,377 - #36 test301
+INFO  13:29:55,377 - #36 int
+INFO  13:29:55,379 - #36 unos
+INFO  13:29:55,379 - #11 ,
+INFO  13:29:55,380 - #36 a
+INFO  13:29:55,380 - #11 ,
+INFO  13:29:55,380 - #36 b
+INFO  13:29:55,380 - #5 ;
+INFO  13:29:55,380 - #3 {
+INFO  13:29:55,381 - #36 int
+INFO  13:29:55,381 - #36 fun
+INFO  13:29:55,381 - #6 (
+INFO  13:29:55,382 - #36 int
+INFO  13:29:55,382 - #36 a
+INFO  13:29:55,382 - #10 +
+ERROR 13:29:55,382 - 
+Sintaksna greska na liniji 7
+ERROR 13:29:55,383 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7

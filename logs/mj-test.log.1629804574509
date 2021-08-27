@@ -1,0 +1,93 @@
+INFO  13:26:00,377 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:26:00,431 - #2 program
+INFO  13:26:00,431 - #36 test301
+INFO  13:26:00,431 - #36 int
+INFO  13:26:00,432 - #36 unos
+INFO  13:26:00,433 - #11 ,
+INFO  13:26:00,433 - #36 a
+INFO  13:26:00,434 - #11 ,
+INFO  13:26:00,434 - #36 b
+INFO  13:26:00,434 - #5 ;
+INFO  13:26:00,434 - #3 {
+INFO  13:26:00,435 - #13 void
+INFO  13:26:00,436 - #36 main
+INFO  13:26:00,436 - #6 (
+INFO  13:26:00,436 - #7 )
+INFO  13:26:00,437 - #3 {
+INFO  13:26:00,437 - #36 a
+INFO  13:26:00,438 - #8 =
+INFO  13:26:00,438 - #36 b
+INFO  13:26:00,438 - #5 ;
+INFO  13:26:00,439 - #4 }
+INFO  13:26:00,439 - #4 }
+INFO  13:26:00,460 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               unos
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             a
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+          VarDeclarationItem(
+           b
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    NoMethodDeclarationsList(
+    ) [NoMethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      StmtList(
+        NoStmtList(
+        ) [NoStmtList]
+        AssignStmt(
+          DesignatorAssignValue(
+            ScalarDesignator(
+             a
+            ) [ScalarDesignator]
+            ExprTerm(
+              TermFactor(
+                FactorDesignator(
+                  ScalarDesignator(
+                   b
+                  ) [ScalarDesignator]
+                ) [FactorDesignator]
+              ) [TermFactor]
+            ) [ExprTerm]
+          ) [DesignatorAssignValue]
+        ) [AssignStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  13:26:00,465 - ===================================
+INFO  13:26:00,470 - Deklarisana promenljiva unos na liniji 5
+INFO  13:26:00,470 - Deklarisana promenljiva a na liniji 5
+INFO  13:26:00,470 - Deklarisana promenljiva b na liniji 5
+INFO  13:26:00,470 - Obradjuje se funkcija main na liniji 7
+INFO  13:26:00,470 - ===================================
+INFO  13:26:00,477 - Parsiranje uspesno zavrseno! Nvars = 3

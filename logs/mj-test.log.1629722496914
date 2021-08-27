@@ -1,0 +1,207 @@
+INFO  14:41:16,887 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  14:41:16,949 - #2 program
+INFO  14:41:16,949 - #36 test301
+INFO  14:41:16,949 - #36 int
+INFO  14:41:16,951 - #36 unos
+INFO  14:41:16,952 - #5 ;
+INFO  14:41:16,952 - #3 {
+INFO  14:41:16,952 - #13 void
+INFO  14:41:16,953 - #36 main
+INFO  14:41:16,953 - #6 (
+INFO  14:41:16,953 - #7 )
+INFO  14:41:16,954 - #36 int
+INFO  14:41:16,955 - #36 a
+INFO  14:41:16,955 - #30 [
+INFO  14:41:16,955 - #21 ]
+INFO  14:41:16,955 - #5 ;
+INFO  14:41:16,955 - #36 int
+INFO  14:41:16,955 - #36 b
+INFO  14:41:16,955 - #30 [
+INFO  14:41:16,955 - #21 ]
+INFO  14:41:16,956 - #5 ;
+INFO  14:41:16,956 - #36 int
+INFO  14:41:16,956 - #36 c
+INFO  14:41:16,961 - #5 ;
+INFO  14:41:16,961 - #3 {
+INFO  14:41:16,961 - #36 a
+INFO  14:41:16,962 - #8 =
+INFO  14:41:16,962 - #16 new
+INFO  14:41:16,962 - #36 int
+INFO  14:41:16,962 - #30 [
+INFO  14:41:16,962 - #33 3
+INFO  14:41:16,962 - #21 ]
+INFO  14:41:16,963 - #5 ;
+INFO  14:41:16,963 - #36 b
+INFO  14:41:16,963 - #8 =
+INFO  14:41:16,963 - #16 new
+INFO  14:41:16,964 - #36 int
+INFO  14:41:16,964 - #30 [
+INFO  14:41:16,964 - #33 3
+INFO  14:41:16,964 - #21 ]
+INFO  14:41:16,964 - #5 ;
+INFO  14:41:16,964 - #36 c
+INFO  14:41:16,964 - #8 =
+INFO  14:41:16,965 - #36 a
+INFO  14:41:16,965 - #51 "
+INFO  14:41:16,966 - #24 *
+INFO  14:41:16,966 - #51 "
+INFO  14:41:16,966 - #36 c
+INFO  14:41:16,967 - #5 ;
+INFO  14:41:16,967 - #4 }
+INFO  14:41:16,967 - #4 }
+INFO  14:41:16,982 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          VarDeclarationItem(
+           unos
+          ) [VarDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    NoMethodDeclarationsList(
+    ) [NoMethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          LocalVarDeclarationsList(
+            NoLocalVarDeclarationsList(
+            ) [NoLocalVarDeclarationsList]
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclarationItem(
+                ArrayDeclarationItem(
+                 a
+                ) [ArrayDeclarationItem]
+              ) [OneVarDeclarationItem]
+            ) [VarDeclarations]
+          ) [LocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              ArrayDeclarationItem(
+               b
+              ) [ArrayDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             c
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      StmtList(
+        StmtList(
+          StmtList(
+            NoStmtList(
+            ) [NoStmtList]
+            AssignStmt(
+              DesignatorAssignValue(
+                ScalarDesignator(
+                 a
+                ) [ScalarDesignator]
+                ExprTerm(
+                  TermFactor(
+                    FactorArray(
+                      Type(
+                       int
+                      ) [Type]
+                      ExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           3
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [FactorArray]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [DesignatorAssignValue]
+            ) [AssignStmt]
+          ) [StmtList]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               b
+              ) [ScalarDesignator]
+              ExprTerm(
+                TermFactor(
+                  FactorArray(
+                    Type(
+                     int
+                    ) [Type]
+                    ExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         3
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [FactorArray]
+                ) [TermFactor]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [StmtList]
+        AssignStmt(
+          DesignatorAssignValue(
+            ScalarDesignator(
+             c
+            ) [ScalarDesignator]
+            ExprTerm(
+              TermMulVec(
+                TermFactor(
+                  FactorDesignator(
+                    ScalarDesignator(
+                     a
+                    ) [ScalarDesignator]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+                MulVecOp(
+                ) [MulVecOp]
+                FactorDesignator(
+                  ScalarDesignator(
+                   c
+                  ) [ScalarDesignator]
+                ) [FactorDesignator]
+              ) [TermMulVec]
+            ) [ExprTerm]
+          ) [DesignatorAssignValue]
+        ) [AssignStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  14:41:16,983 - ===================================
+INFO  14:41:16,988 - Deklarisana promenljiva unos na liniji 5
+INFO  14:41:16,988 - Obradjuje se funkcija main na liniji 7
+INFO  14:41:16,988 - Deklarisan niz a na liniji 8
+INFO  14:41:16,989 - Deklarisan niz b na liniji 9
+INFO  14:41:16,989 - Deklarisana promenljiva c na liniji 10
+ERROR 14:41:16,990 - U vektorskom mnozenju oba operanda moraju biti vektori! Semanticka greska na liniji 14

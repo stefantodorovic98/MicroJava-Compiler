@@ -1,0 +1,175 @@
+INFO  13:38:43,733 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:38:43,790 - #2 program
+INFO  13:38:43,790 - #36 test301
+INFO  13:38:43,790 - #36 int
+INFO  13:38:43,791 - #36 unos
+INFO  13:38:43,792 - #11 ,
+INFO  13:38:43,793 - #36 a
+INFO  13:38:43,793 - #11 ,
+INFO  13:38:43,793 - #36 b
+INFO  13:38:43,793 - #5 ;
+INFO  13:38:43,793 - #3 {
+INFO  13:38:43,794 - #36 int
+INFO  13:38:43,794 - #36 fun
+INFO  13:38:43,794 - #6 (
+INFO  13:38:43,795 - #36 int
+INFO  13:38:43,795 - #36 a
+INFO  13:38:43,795 - #11 ,
+INFO  13:38:43,795 - #36 int
+INFO  13:38:43,795 - #36 b
+INFO  13:38:43,796 - #11 ,
+INFO  13:38:43,796 - #36 int
+INFO  13:38:43,796 - #36 c
+INFO  13:38:43,796 - #10 +
+ERROR 13:38:43,802 - 
+Sintaksna greska na liniji 7
+INFO  13:38:43,803 - #7 )
+INFO  13:38:43,803 - #3 {
+INFO  13:38:43,803 - #9 return
+INFO  13:38:43,804 - #36 c
+ERROR 13:38:43,804 - Izvrsen oporavak od greske u deklaraciji formalnog parametra do , ili ). Greska je u liniji 7
+INFO  13:38:43,806 - #10 +
+INFO  13:38:43,807 - #36 b
+INFO  13:38:43,807 - #5 ;
+INFO  13:38:43,807 - #4 }
+INFO  13:38:43,808 - #13 void
+INFO  13:38:43,808 - #36 main
+INFO  13:38:43,808 - #6 (
+INFO  13:38:43,808 - #7 )
+INFO  13:38:43,809 - #3 {
+INFO  13:38:43,809 - #36 a
+INFO  13:38:43,809 - #8 =
+INFO  13:38:43,809 - #36 b
+INFO  13:38:43,809 - #28 ++
+ERROR 13:38:43,809 - 
+Sintaksna greska na liniji 14
+INFO  13:38:43,809 - #10 +
+INFO  13:38:43,809 - #5 ;
+INFO  13:38:43,809 - #4 }
+INFO  13:38:43,810 - #4 }
+ERROR 13:38:43,810 - Izvrsen oporavak od greske pri konstrukciji iskaza dodele do ;. Greska je u liniji 14
+INFO  13:38:43,828 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               unos
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             a
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+          VarDeclarationItem(
+           b
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    MethodDeclarationsList(
+      NoMethodDeclarationsList(
+      ) [NoMethodDeclarationsList]
+      MethodDeclaration(
+        MethodReturnType(
+          Type(
+           int
+          ) [Type]
+         fun
+        ) [MethodReturnType]
+        FormParams(
+          FormalParamDecls(
+            FormalParamDecls(
+              SingleFormalParamDecl(
+                ScalarParam(
+                  Type(
+                   int
+                  ) [Type]
+                 a
+                ) [ScalarParam]
+              ) [SingleFormalParamDecl]
+              ScalarParam(
+                Type(
+                 int
+                ) [Type]
+               b
+              ) [ScalarParam]
+            ) [FormalParamDecls]
+            ErrorInFormalParamDecl(
+            ) [ErrorInFormalParamDecl]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        NoLocalVarDeclarationsList(
+        ) [NoLocalVarDeclarationsList]
+        StmtList(
+          NoStmtList(
+          ) [NoStmtList]
+          ReturnStmt(
+            YesReturnExpr(
+              ExprAdd(
+                ExprTerm(
+                  TermFactor(
+                    FactorDesignator(
+                      ScalarDesignator(
+                       c
+                      ) [ScalarDesignator]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [ExprTerm]
+                PlusOperation(
+                ) [PlusOperation]
+                TermFactor(
+                  FactorDesignator(
+                    ScalarDesignator(
+                     b
+                    ) [ScalarDesignator]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [ExprAdd]
+            ) [YesReturnExpr]
+          ) [ReturnStmt]
+        ) [StmtList]
+      ) [MethodDeclaration]
+    ) [MethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      StmtList(
+        NoStmtList(
+        ) [NoStmtList]
+        AssignStmt(
+          ErrorInAssigningValue(
+          ) [ErrorInAssigningValue]
+        ) [AssignStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  13:38:43,829 - ===================================
+INFO  13:38:43,834 - Deklarisana promenljiva unos na liniji 5
+INFO  13:38:43,834 - Deklarisana promenljiva a na liniji 5
+INFO  13:38:43,834 - Deklarisana promenljiva b na liniji 5
+INFO  13:38:43,835 - Obradjuje se funkcija fun na liniji 7
+ERROR 13:38:43,835 - Ime c nije deklarisano! Semanticka greska na liniji 9
+ERROR 13:38:43,835 - Nisu kompatibilni tipovi u izrazu za sabiranje! Semanticka greska na liniji 9
+ERROR 13:38:43,835 - Izraz uz return nije ekvivalentan tipu tekuce metode! Semanticka greska na liniji 9
+INFO  13:38:43,835 - Obradjuje se funkcija main na liniji 12
+INFO  13:38:43,835 - ===================================
+ERROR 13:38:43,836 - Parsiranje NIJE uspesno zavrseno!

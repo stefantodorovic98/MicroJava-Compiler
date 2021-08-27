@@ -1,0 +1,85 @@
+INFO  13:24:36,245 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  13:24:36,298 - #2 program
+INFO  13:24:36,299 - #36 test301
+INFO  13:24:36,299 - #36 int
+INFO  13:24:36,300 - #36 unos
+INFO  13:24:36,301 - #11 ,
+INFO  13:24:36,301 - #36 a
+INFO  13:24:36,301 - #11 ,
+INFO  13:24:36,302 - #36 b
+INFO  13:24:36,302 - #5 ;
+INFO  13:24:36,302 - #3 {
+INFO  13:24:36,302 - #13 void
+INFO  13:24:36,303 - #36 main
+INFO  13:24:36,303 - #6 (
+INFO  13:24:36,303 - #7 )
+INFO  13:24:36,304 - #3 {
+INFO  13:24:36,304 - #36 a
+INFO  13:24:36,305 - #8 =
+INFO  13:24:36,305 - #36 b
+INFO  13:24:36,305 - #10 +
+INFO  13:24:36,306 - #5 ;
+ERROR 13:24:36,306 - 
+Sintaksna greska na liniji 9
+INFO  13:24:36,308 - #4 }
+INFO  13:24:36,308 - #4 }
+ERROR 13:24:36,309 - Izvrsen oporavak od greske pri konstrukciji iskaza dodele do ;. Greska je u liniji 9
+INFO  13:24:36,329 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        VarDeclarationsList(
+          VarDeclarationsList(
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               unos
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+            VarDeclarationItem(
+             a
+            ) [VarDeclarationItem]
+          ) [VarDeclarationsList]
+          VarDeclarationItem(
+           b
+          ) [VarDeclarationItem]
+        ) [VarDeclarationsList]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    NoMethodDeclarationsList(
+    ) [NoMethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      NoLocalVarDeclarationsList(
+      ) [NoLocalVarDeclarationsList]
+      StmtList(
+        NoStmtList(
+        ) [NoStmtList]
+        AssignStmt(
+          ErrorInAssigningValue(
+          ) [ErrorInAssigningValue]
+        ) [AssignStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  13:24:36,329 - ===================================
+INFO  13:24:36,334 - Deklarisana promenljiva unos na liniji 5
+INFO  13:24:36,334 - Deklarisana promenljiva a na liniji 5
+INFO  13:24:36,334 - Deklarisana promenljiva b na liniji 5
+INFO  13:24:36,334 - Obradjuje se funkcija main na liniji 7
+INFO  13:24:36,334 - ===================================
+ERROR 13:24:36,336 - Parsiranje NIJE uspesno zavrseno!

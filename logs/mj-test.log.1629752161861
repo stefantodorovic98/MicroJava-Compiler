@@ -1,0 +1,308 @@
+INFO  22:53:40,752 - Compiling source file: C:\pp1domaci\workspace\MJCompiler\test\program.mj
+INFO  22:53:40,822 - #2 program
+INFO  22:53:40,823 - #36 test301
+INFO  22:53:40,823 - #36 int
+INFO  22:53:40,825 - #36 unos
+INFO  22:53:40,826 - #5 ;
+INFO  22:53:40,826 - #3 {
+INFO  22:53:40,827 - #13 void
+INFO  22:53:40,828 - #36 main
+INFO  22:53:40,829 - #6 (
+INFO  22:53:40,829 - #7 )
+INFO  22:53:40,830 - #36 int
+INFO  22:53:40,830 - #36 a
+INFO  22:53:40,831 - #30 [
+INFO  22:53:40,831 - #21 ]
+INFO  22:53:40,831 - #5 ;
+INFO  22:53:40,831 - #36 int
+INFO  22:53:40,831 - #36 b
+INFO  22:53:40,831 - #30 [
+INFO  22:53:40,832 - #21 ]
+INFO  22:53:40,832 - #5 ;
+INFO  22:53:40,832 - #36 int
+INFO  22:53:40,832 - #36 c
+INFO  22:53:40,837 - #5 ;
+INFO  22:53:40,837 - #36 int
+INFO  22:53:40,837 - #36 d
+INFO  22:53:40,837 - #5 ;
+INFO  22:53:40,838 - #3 {
+INFO  22:53:40,838 - #36 a
+INFO  22:53:40,839 - #8 =
+INFO  22:53:40,840 - #16 new
+INFO  22:53:40,841 - #36 int
+INFO  22:53:40,841 - #30 [
+INFO  22:53:40,841 - #33 3
+INFO  22:53:40,841 - #21 ]
+INFO  22:53:40,842 - #5 ;
+INFO  22:53:40,843 - #36 a
+INFO  22:53:40,844 - #30 [
+INFO  22:53:40,845 - #33 0
+INFO  22:53:40,845 - #21 ]
+INFO  22:53:40,845 - #8 =
+INFO  22:53:40,845 - #33 101
+INFO  22:53:40,845 - #5 ;
+INFO  22:53:40,846 - #36 b
+INFO  22:53:40,846 - #8 =
+INFO  22:53:40,846 - #16 new
+INFO  22:53:40,846 - #36 int
+INFO  22:53:40,846 - #30 [
+INFO  22:53:40,846 - #33 3
+INFO  22:53:40,846 - #21 ]
+INFO  22:53:40,847 - #5 ;
+INFO  22:53:40,847 - #36 b
+INFO  22:53:40,847 - #30 [
+INFO  22:53:40,847 - #33 0
+INFO  22:53:40,847 - #21 ]
+INFO  22:53:40,847 - #8 =
+INFO  22:53:40,848 - #33 99
+INFO  22:53:40,848 - #5 ;
+INFO  22:53:40,848 - #36 c
+INFO  22:53:40,848 - #8 =
+INFO  22:53:40,848 - #36 a
+INFO  22:53:40,848 - #51 "
+INFO  22:53:40,849 - #24 *
+INFO  22:53:40,849 - #51 "
+INFO  22:53:40,849 - #36 b
+INFO  22:53:40,850 - #5 ;
+INFO  22:53:40,851 - #12 print
+INFO  22:53:40,851 - #6 (
+INFO  22:53:40,851 - #36 c
+INFO  22:53:40,862 - #7 )
+INFO  22:53:40,863 - #5 ;
+INFO  22:53:40,863 - #4 }
+INFO  22:53:40,864 - #4 }
+INFO  22:53:40,894 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  GlobalDeclarationsList(
+    NoGlobalDeclarationsList(
+    ) [NoGlobalDeclarationsList]
+    GlobalVarDecl(
+      VarDeclarations(
+        Type(
+         int
+        ) [Type]
+        OneVarDeclarationItem(
+          VarDeclarationItem(
+           unos
+          ) [VarDeclarationItem]
+        ) [OneVarDeclarationItem]
+      ) [VarDeclarations]
+    ) [GlobalVarDecl]
+  ) [GlobalDeclarationsList]
+  MethodDeclarationsList(
+    NoMethodDeclarationsList(
+    ) [NoMethodDeclarationsList]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoFormParams(
+      ) [NoFormParams]
+      LocalVarDeclarationsList(
+        LocalVarDeclarationsList(
+          LocalVarDeclarationsList(
+            LocalVarDeclarationsList(
+              NoLocalVarDeclarationsList(
+              ) [NoLocalVarDeclarationsList]
+              VarDeclarations(
+                Type(
+                 int
+                ) [Type]
+                OneVarDeclarationItem(
+                  ArrayDeclarationItem(
+                   a
+                  ) [ArrayDeclarationItem]
+                ) [OneVarDeclarationItem]
+              ) [VarDeclarations]
+            ) [LocalVarDeclarationsList]
+            VarDeclarations(
+              Type(
+               int
+              ) [Type]
+              OneVarDeclarationItem(
+                ArrayDeclarationItem(
+                 b
+                ) [ArrayDeclarationItem]
+              ) [OneVarDeclarationItem]
+            ) [VarDeclarations]
+          ) [LocalVarDeclarationsList]
+          VarDeclarations(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclarationItem(
+              VarDeclarationItem(
+               c
+              ) [VarDeclarationItem]
+            ) [OneVarDeclarationItem]
+          ) [VarDeclarations]
+        ) [LocalVarDeclarationsList]
+        VarDeclarations(
+          Type(
+           int
+          ) [Type]
+          OneVarDeclarationItem(
+            VarDeclarationItem(
+             d
+            ) [VarDeclarationItem]
+          ) [OneVarDeclarationItem]
+        ) [VarDeclarations]
+      ) [LocalVarDeclarationsList]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              StmtList(
+                StmtList(
+                  NoStmtList(
+                  ) [NoStmtList]
+                  AssignStmt(
+                    DesignatorAssignValue(
+                      ScalarDesignator(
+                       a
+                      ) [ScalarDesignator]
+                      ExprTerm(
+                        TermFactor(
+                          FactorArray(
+                            Type(
+                             int
+                            ) [Type]
+                            ExprTerm(
+                              TermFactor(
+                                FactorNumber(
+                                 3
+                                ) [FactorNumber]
+                              ) [TermFactor]
+                            ) [ExprTerm]
+                          ) [FactorArray]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [DesignatorAssignValue]
+                  ) [AssignStmt]
+                ) [StmtList]
+                AssignStmt(
+                  DesignatorAssignValue(
+                    ArrayDesignator(
+                      ArrayDesignatorName(
+                       a
+                      ) [ArrayDesignatorName]
+                      ExprTerm(
+                        TermFactor(
+                          FactorNumber(
+                           0
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [ExprTerm]
+                    ) [ArrayDesignator]
+                    ExprTerm(
+                      TermFactor(
+                        FactorNumber(
+                         101
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [ExprTerm]
+                  ) [DesignatorAssignValue]
+                ) [AssignStmt]
+              ) [StmtList]
+              AssignStmt(
+                DesignatorAssignValue(
+                  ScalarDesignator(
+                   b
+                  ) [ScalarDesignator]
+                  ExprTerm(
+                    TermFactor(
+                      FactorArray(
+                        Type(
+                         int
+                        ) [Type]
+                        ExprTerm(
+                          TermFactor(
+                            FactorNumber(
+                             3
+                            ) [FactorNumber]
+                          ) [TermFactor]
+                        ) [ExprTerm]
+                      ) [FactorArray]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [DesignatorAssignValue]
+              ) [AssignStmt]
+            ) [StmtList]
+            AssignStmt(
+              DesignatorAssignValue(
+                ArrayDesignator(
+                  ArrayDesignatorName(
+                   b
+                  ) [ArrayDesignatorName]
+                  ExprTerm(
+                    TermFactor(
+                      FactorNumber(
+                       0
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [ExprTerm]
+                ) [ArrayDesignator]
+                ExprTerm(
+                  TermFactor(
+                    FactorNumber(
+                     99
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [ExprTerm]
+              ) [DesignatorAssignValue]
+            ) [AssignStmt]
+          ) [StmtList]
+          AssignStmt(
+            DesignatorAssignValue(
+              ScalarDesignator(
+               c
+              ) [ScalarDesignator]
+              ExprTerm(
+                TermMulVec(
+                  TermFactor(
+                    FactorDesignator(
+                      ScalarDesignator(
+                       a
+                      ) [ScalarDesignator]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                  MulVecOp(
+                  ) [MulVecOp]
+                  FactorDesignator(
+                    ScalarDesignator(
+                     b
+                    ) [ScalarDesignator]
+                  ) [FactorDesignator]
+                ) [TermMulVec]
+              ) [ExprTerm]
+            ) [DesignatorAssignValue]
+          ) [AssignStmt]
+        ) [StmtList]
+        PrintStmt(
+          ExprTerm(
+            TermFactor(
+              FactorDesignator(
+                ScalarDesignator(
+                 c
+                ) [ScalarDesignator]
+              ) [FactorDesignator]
+            ) [TermFactor]
+          ) [ExprTerm]
+          NoNumberConstant(
+          ) [NoNumberConstant]
+        ) [PrintStmt]
+      ) [StmtList]
+    ) [MethodDeclaration]
+  ) [MethodDeclarationsList]
+) [Program]
+INFO  22:53:40,894 - ===================================
+INFO  22:53:40,899 - Deklarisana promenljiva unos na liniji 5
+INFO  22:53:40,900 - Obradjuje se funkcija main na liniji 7
+INFO  22:53:40,900 - Deklarisan niz a na liniji 8
+INFO  22:53:40,900 - Deklarisan niz b na liniji 9
+INFO  22:53:40,900 - Deklarisana promenljiva c na liniji 10
+INFO  22:53:40,900 - Deklarisana promenljiva d na liniji 11
+INFO  22:53:40,901 - ===================================
+INFO  22:53:40,909 - Parsiranje uspesno zavrseno! Nvars = 1
